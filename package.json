@@ -1,0 +1,22 @@
+{
+  "name": "plotboilerplate-typescript-example",
+  "version": "1.0.0",
+  "description": "A test for the plotboilerplate/typescript",
+  "main": "index.js",
+  "dependencies": {
+    "plotboilerplate": "^1.7.12"
+  },
+  "devDependencies": {
+    "FileSaver": "^0.10.0",
+    "dat.gui": "^0.7.7",
+    "touchy": "^0.1.6",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3"
+  },
+  "scripts": {
+    "compile-typescript": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

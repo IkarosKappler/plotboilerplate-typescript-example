@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2D Plotting Boilerplate - Testrun with Typescript</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Ikaros Kappler">
+    <meta name="date" content="2019-01-13">
+
+    <!-- <script src="lib/humane.min.js"></script> -->
+    <!-- <script src="lib/dat.gui.min.js"></script> -->
+    <!-- <script src="lib/FileSaver.min.js"></script> -->
+    <!-- <script src="lib/Color.min.js"></script> -->
+    <!-- <script src="lib/Touchy.min.js"></script> -->
+
+    <!-- <script src="node_modules/FileSaver/FileSaver.js"></script>
+    <script src="node_modules/touchy/touchy.js"></script> -->
+    <script src="node_modules/dat.gui/build/dat.gui.min.js"></script>
+
+    <script src="node_modules/plotboilerplate/src/js/utils/dat.gui.title.polyfill.js"></script>
+    <script src="node_modules/plotboilerplate/src/js/utils/dat.gui.arrowbounce.polyfill.js"></script>
+    <script src="node_modules/plotboilerplate/src/js/utils/creategui.js"></script>
+    <script src="node_modules/plotboilerplate/src/js/utils/gup.js"></script>
+    <script src="node_modules/plotboilerplate/src/js/utils/module.js"></script> 
+    
+    <script src="node_modules/plotboilerplate/dist/plotboilerplate.min.js"></script>
+
+    <script src="compiled/index.js"></script>
+
+    <!-- <link rel="stylesheet" href="lib/humane.theme.flatty.css">  -->
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+    <canvas id="my-canvas" width="1024" height="768">Your browser does not support the canvas tag.</canvas>
+
+    <div class="info monospace">
+      [<span id="cx">-</span>,<span id="cy">-</span>]
+    </div>
+
+    <div id="dialog-wrapper" class="overlay-wrapper">
+      <div class="overlay-blanket">
+	<div class="overlay-content">Test</div>
+      </div>
+    </div>
+  </body>
+</html>

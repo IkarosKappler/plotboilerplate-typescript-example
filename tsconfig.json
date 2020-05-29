@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+	"outDir": "./compiled/",
+	"module": "commonjs",
+	
+	"target": "es5",
+	"lib": [ "es2015", "dom" ],
+	
+	"sourceMap": true,
+	"declaration": true
+
+    },
+    "inclue": ["./indx.ts"],
+    "exclude": ["./compiled/","*.json", "*.html"],
+    "removeComments": false
+}
