@@ -4,14 +4,15 @@
   "description": "A test for the plotboilerplate/typescript",
   "main": "index.js",
   "dependencies": {
-    "plotboilerplate": "^1.7.12"
+    "plotboilerplate": "^1.8.1"
   },
   "devDependencies": {
     "FileSaver": "^0.10.0",
+    "alloyfinger": "^0.1.16",
     "dat.gui": "^0.7.7",
     "touchy": "^0.1.6",
     "ts-loader": "^7.0.5",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.6"
   },
   "scripts": {
     "compile-typescript": "tsc",
