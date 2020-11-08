@@ -4,7 +4,7 @@
   "description": "A test for the plotboilerplate/typescript",
   "main": "index.js",
   "dependencies": {
-    "plotboilerplate": "^1.8.1"
+    "plotboilerplate": "^1.8.8"
   },
   "devDependencies": {
     "FileSaver": "^0.10.0",
@@ -12,10 +12,11 @@
     "dat.gui": "^0.7.7",
     "touchy": "^0.1.6",
     "ts-loader": "^7.0.5",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7"
   },
   "scripts": {
     "compile-typescript": "tsc",
+    "build": "npm run compile-typescript",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
