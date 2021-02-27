@@ -7,7 +7,7 @@ window.addEventListener('load', function () {
     console.log(vertA, vertB);
     var line = new plotboilerplate_1.Line(vertA, vertB);
     var pb = new plotboilerplate_1.PlotBoilerplate({
-        canvas: document.getElementById('my-canvas'),
+        canvas: '#my-canvas',
         fullSize: true
     });
     pb.add(line);

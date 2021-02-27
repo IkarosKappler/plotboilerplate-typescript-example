@@ -10,7 +10,7 @@ window.addEventListener( 'load', () => {
     const line : Line = new Line( vertA, vertB );
     
     const pb : PlotBoilerplate = new PlotBoilerplate( {
-	canvas     : document.getElementById('my-canvas'),
+	canvas     : '#my-canvas', // element must be an <canvas> or <svg> element
 	fullSize   : true
     } );
     

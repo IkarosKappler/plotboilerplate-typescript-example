@@ -4,7 +4,7 @@
   "description": "A test for the plotboilerplate/typescript",
   "main": "index.js",
   "dependencies": {
-    "plotboilerplate": "^1.11.1"
+    "plotboilerplate": "^1.12.0"
   },
   "devDependencies": {
     "FileSaver": "^0.10.0",
